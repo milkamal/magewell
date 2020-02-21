@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libimg_converterv2.so -o libimg_converterv2.so CMakeFiles/img_converterv2.dir/imgtoByte.cpp.o 

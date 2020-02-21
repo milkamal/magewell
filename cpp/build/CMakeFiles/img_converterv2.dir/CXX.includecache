@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tester/C++/Cmake/img_converterv2/cpp/imgtoByte.cpp
+imgtoByte.h
+/home/tester/C++/Cmake/img_converterv2/cpp/imgtoByte.h
+iostream
+-
+
+/home/tester/C++/Cmake/img_converterv2/cpp/imgtoByte.h
+fstream
+-
+vector
+-
+iterator
+-
+string
+-
+

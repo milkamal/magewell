@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+     <ItemGroup>
+       <None Include="libimg_converterv2.so">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+       </None>
+       <None Include="sky.jpg">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+       </None>
+ </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+    </ItemGroup>
+
+</Project>
